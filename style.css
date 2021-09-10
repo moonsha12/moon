@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
-h1{background-color:;
+h1{background-color: transparent;
     
     text-align: center;
     position: absolute;
@@ -41,6 +41,7 @@ left: 50px;
     transform: rotate(45deg) translate(-8px, -8px);
   }
   #search{
+      background: transparent;
       position: absolute;
       right: 40px;
       top: 10px;
@@ -66,4 +67,10 @@ left: 50px;
       margin-right: 5%;
       font-weight: bolder;
       font-size: 20px;
+  }
+  #banner{
+      height: 30%;
+      width: 100%;
+      background-color: turquoise;
+      font-size: larger;
   }
