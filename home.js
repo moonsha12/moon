@@ -1,1 +1,1 @@
-alert("hello this is sheeba");
+alert("thank you for sending image i love  you reply on whatsapp your answer ");

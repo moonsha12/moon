@@ -69,8 +69,10 @@ left: 50px;
       font-size: 20px;
   }
   #banner{
-      height: 30%;
+      height: 40%;
       width: 100%;
-      background-color: white;
+    background-image:url(./image/banner.jfif);
+    background-size: cover;
+    border: 2px double black;
       font-size: larger;
   }
