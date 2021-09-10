@@ -75,4 +75,14 @@ left: 50px;
     background-size: cover;
     border: 2px double black;
       font-size: larger;
+      animation: banner 6s infinite ;
+  }
+  @keyframes banner {
+      20%{
+          background-image: url(./image/banner2.jfif);
+      }
+     50%{
+         background-image: url(./image/banner3.jfif);
+     } 
+     100%{background-image:url(./image/banner.jfif);}
   }
