@@ -76,6 +76,8 @@ left: 50px;
     border: 2px double black;
       font-size: larger;
       animation: banner 6s infinite ;
+      border-radius: 10
+      px;
   }
   @keyframes banner {
       20%{
@@ -85,4 +87,9 @@ left: 50px;
          background-image: url(./image/banner3.jfif);
      } 
      100%{background-image:url(./image/banner.jfif);}
+  }
+  td{
+      height: 150px;
+      width: 150px;
+      background:linear-gradient(white,blue);
   }
