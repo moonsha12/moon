@@ -42,9 +42,9 @@ left: 50px;
       background: transparent;
       position: absolute;
       right: 40px;
-      top: 10px;
+      top: 15px;
       border: 3px solid grey;
-      font-size: 20px;
+      font-size: 15px;
   }
   #fa{
       width: 30px;
