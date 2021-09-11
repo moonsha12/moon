@@ -15,10 +15,8 @@ img{
     position: absolute;
 left: 50px;
 }
-.container {
-    display: inline-block;
-    cursor: pointer;
-  }
+
+    
   
   .bar1, .bar2, .bar3 {
     width: 35px;
@@ -91,5 +89,44 @@ left: 50px;
   td{
       height: 150px;
       width: 150px;
-      background:linear-gradient(white,blue);
+      background:linear-gradient(white,grey);
+      transition: width 1s ,height 1s ,fade-out;
   }
+  #login{
+      border: 2px solid black;
+      font-size: larger;
+     margin-left: 75%;
+     position: absolute;
+     top: 10px;
+
+
+  }
+  #login:hover{
+      font-size: 20px;
+      background-color: white;
+  }
+ td:hover{
+      text-transform: capitalize;
+      text-align: center;
+      font-size: 15px;
+      height: 160px;
+  width: 160px;
+    }
+    table{
+        border-spacing:20px ;
+    }
+    #lp{
+        width: 40%;
+        height: 50%;
+        padding: 5%;
+        background-color: cadetblue;
+        margin-top: 3%;
+        font-size: 40px
+    }
+    .input{
+        position: ;
+        width: 250px;
+        height: 30px;
+        padding: 20px;
+        margin: 20px;
+    }
