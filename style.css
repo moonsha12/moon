@@ -1,132 +1,22 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%
 }
-h1{background-color: transparent;
-    
+#nav{
+    width:100% ;
+    height: 8%;
+    background-color: #ffffb3;
+    box-shadow: black;
+    border:1px solid  black;
+    justify-content: center;
     text-align: center;
-    position: absolute;
-    left: 40%;
     
-
 }
-img{
-    float: left;
-    position: absolute;
-left: 50px;
+li{
+    flex-direction: row;
+    display: inline-flex;
+float: right;
+   text-align: left; 
+    padding: 1rem;
+    margin-top: 0%;
 }
-
-    
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-    margin-left: 10px;
-  }
-  
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
-  #search{
-      background: transparent;
-      position: absolute;
-      right: 40px;
-      top: 15px;
-      border: 3px solid grey;
-      font-size: 15px;
-  }
-  #fa{
-      width: 30px;
-      height: 20px;
-      position: absolute;
-      right: 0%;
-      top: 13px;
-      border: 2px solid black;
-  }
-  body{
-      background-image:url(./image/bg-image.jpg);
-      background-size: cover;
-  }
-  #center{
-      text-align: center;
-      margin-top: 12%;
-     margin-left: 5%;
-      margin-right: 5%;
-      font-weight: bolder;
-      font-size: 20px;
-  }
-  #banner{
-      height: 40%;
-      width: 100%;
-    background-image:url(./image/banner.jfif);
-    background-size: cover;
-    border: 2px double black;
-      font-size: larger;
-      animation: banner 6s infinite ;
-      border-radius: 10
-      px;
-  }
-  @keyframes banner {
-      20%{
-          background-image: url(./image/banner2.jfif);
-      }
-     50%{
-         background-image: url(./image/banner3.jfif);
-     } 
-     100%{background-image:url(./image/banner.jfif);}
-  }
-  td{
-      height: 150px;
-      width: 150px;
-      background:linear-gradient(white,grey);
-      transition: width 1s ,height 1s ,fade-out;
-  }
-  #login{
-      border: 2px solid black;
-      font-size: larger;
-     margin-left: 75%;
-     position: absolute;
-     top: 10px;
-
-
-  }
-  #login:hover{
-      font-size: 20px;
-      background-color: white;
-  }
- td:hover{
-      text-transform: capitalize;
-      text-align: center;
-      font-size: 15px;
-      height: 160px;
-  width: 160px;
-    }
-    table{
-        border-spacing:20px ;
-    }
-    #lp{
-        width: 40%;
-        height: 50%;
-        padding: 5%;
-        background-color: cadetblue;
-        margin-top: 3%;
-        font-size: 40px
-    }
-    .input{
-        position: ;
-        width: 250px;
-        height: 30px;
-        padding: 20px;
-        margin: 20px;
-    }
