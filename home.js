@@ -1,1 +1,1 @@
-alert("Hello thanks for waching ");
+alert("Hello thanks for watching ");
