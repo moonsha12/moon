@@ -20,3 +20,12 @@ float: right;
     padding: 1rem;
     margin-top: 0%;
 }
+@media screen and(max-width:600px) {
+  #nav{  display: none;
+    background-color: aqua;
+  }
+  body{
+    background-color: aqua;
+  }
+    
+}
