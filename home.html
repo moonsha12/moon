@@ -1,26 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link href="./style.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <script src="home.js"></script>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="nav">
-    <ul>
-      <a href="neckless.html"><li>neckless </li></a> 
-      <a href="earning.html"> <li>earnings</li></a>
-      <a href="offers.html"> <li>offers</li></a> 
-      <a href="login.html"><li>sigin</li></a> 
-      <a  href="home.html" class="active"><li>home </li></a> 
-      <h1>finest jewelary</h1>
-    
-  </ul>
   
+  
+    <div class="input">
+      <input type="text" placeholder="Enter the city" class="input_text">
+      <input type="submit" value="Submit" class="submit">
+    </div>
+ 
+
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+    </div>
   </div>
-  
+<script src="app.js"></script>
 </body>
 </html>
